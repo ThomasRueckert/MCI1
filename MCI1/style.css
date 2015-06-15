@@ -8,12 +8,18 @@
 
 body {
     font-family: sans-serif;
+    color: #29537e;
 }
 
 header {
     height: 50px;
     width: 100%;
     background-color: #4899e7;
+    text-align: right;
+}
+
+#companyName:hover {
+    color: white;
 }
 
 #companyName {
@@ -33,7 +39,7 @@ nav {
     width: 200px;
     padding: 50px 50px 100px 50px;
     margin-top: 155px;
-    border-right: solid 2px #4899e7;
+    border-right: solid 2px #4F93D4;
 }
 
 nav ul {
@@ -50,29 +56,62 @@ nav ul li a {
     color: #4899e7;
     font-size: 20px;
     text-decoration: none;
+    #margin-right: -25px;
+    margin-right: -50px;
 }
 
 nav ul li a:hover {
-    border-left: solid 10px #4899e7;
+    border-left: solid 10px #4F93D4;
+    border-bottom: solid 1px #4F93D4;
     padding-left: 20px;
+    padding-bottom: 9px;
 }
 
 section {
     float: right;
-    width: 700px;
-    padding: 100px 0 50px 0;
+    width: 750px;
+    padding: 100px 0 50px 20px;
     #border: solid 2px #4899e7;
+    border-left: outset 1px #0A6ECE;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    #margin-right: 95px;
+    color: #065097;
 }
 
 section h1, section h2, section h3, section h4, section h5, section h6 {
     margin: 45px 0 10px 0;
+    color: #6EAFEE;
+    padding-bottom: 5px;
+    border-bottom: inset 1px #0A6ECE;
 }
 
 section a {
-    color: #4899e7;
+    color: #489fed;
     text-decoration: none;
 }
 
 section a:hover {
     text-decoration: underline;
+}
+
+footer {
+    padding-top: 12px;
+    clear: both;
+    background-color: #4899e7;
+    height: 50px;
+    width: 100%;
+}
+
+#toTop {
+    text-align: right;
+}
+
+#toTop a {
+    text-decoration: none;
+    color: #dde5e7;
+}
+
+#toTop a:hover {
+    color: white;
 }
